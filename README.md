@@ -1,4 +1,4 @@
-# CARSv2-tools package
+# CARSv2_tools package
 a simple, general python package for mature CARSv2 code
 
 ### Installation
