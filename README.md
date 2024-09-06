@@ -7,6 +7,7 @@ currently you can only import the code from a local repo
 ### Structure
 ```
 CARSv2_tools/
+├── config.yml           # configure settings like paths or clusters
 ├── CARSv2_tools/
 │   ├── __init__.py      # Makes the directory a Python package
 │   ├── module1.py       # A module
