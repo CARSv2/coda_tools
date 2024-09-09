@@ -1,7 +1,9 @@
 #!/bin/bash
 
 ############
-# move CODA archive from Tube in Hobart to Gadi
+# move CODA archive from tube-hba in Hobart to Gadi
+# run this on tube-hba
 ############
- 
-rsync -avPs /g/data/es60/users/thomas_moore/clim_demo_results/daily/bran2020_GISready_results/. /g/data/es60/users/thomas_moore/clim_demo_results/daily/bran2020_GISready_delivery/. > ./logs/$PBS_JOBID-data-move.log 2>&1
+
+cd /oa-decadal-climate/work/observations/CARSv2_ancillary/CODA/CODAv1
+rsync -avP 201[0-9] tm4888@gadi.nci.org.au:/g/data/es60/users/thomas_moore/CODA/.
