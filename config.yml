@@ -2,3 +2,6 @@ paths:
   path_gadi_CODA: "/g/data/es60/users/thomas_moore/CODA/"
   path_tube_CODA: "/oa-decadal-climate/work/observations/CARSv2_ancillary/CODA/CODAv1/"
   path_tube_logs: "/oa-decadal-climate/work/moo270/logs/"
+glob:
+  # rsync_pattern: "{200[5-9],201[0-9],202[0-3]"
+  rsync_pattern: "2023"
