@@ -18,4 +18,4 @@ cd "$DIR_CODA"
 LOG_FILE_NAME="script_log_$(date +"%Y%m%d_%H%M%S").txt"
 echo "$(date): Changing directory to: $DIR_CODA" >> "$DIR_logs"/"$LOG_FILE_NAME"
 echo "rsync glob pattern:" "$glob_pattern" >> "$DIR_logs"/"$LOG_FILE_NAME"
-rsync -avP "$glob_pattern" tm4888@gadi.nci.org.au:/g/data/es60/users/thomas_moore/CODA/. >> "$DIR_logs"/"$LOG_FILE_NAME" 2>&1
+rsync -avP "$glob_pattern"/* tm4888@gadi.nci.org.au:/g/data/es60/users/thomas_moore/CODA/. >> "$DIR_logs"/"$LOG_FILE_NAME" 2>&1
