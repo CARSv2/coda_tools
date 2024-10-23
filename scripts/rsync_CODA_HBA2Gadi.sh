@@ -6,7 +6,7 @@
 ############
 
 # move to DIR with shell script
-cd /home/moo270/code/CARSv2_tools/scripts
+cd /home/moo270/code/coda_tools/scripts
 
 # Extract the paths from the YAML file
 DIR_tube_CODA=$(yq eval '.paths.path_tube_CODA' ../config.yml)
