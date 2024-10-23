@@ -8,4 +8,4 @@
 VERSION = "0.0.1"
 
 # Optional: Initialize something at package import
-print(f"CARSv2_tools v{VERSION} initialized!")
+print(f"coda_tools v{VERSION} initialized!")

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coda_tools"
+version = "0.01"
+description = "coda tools"
+authors = [{name = "Thomas-Moore-Creative", email = "thomas.moore@csiro.au"}]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["coda_tools*"]
+exclude = ["notebooks"]
